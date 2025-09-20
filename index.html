@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Dulce Tentación - Repostería Artesanal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>La Dulce Tentación</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#productos" class="nav-link">Productos</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>La Dulce Tentación</h1>
+            <p class="hero-subtitle">Repostería Artesanal de La Resolana, Jalisco</p>
+            <p class="hero-description">Endulzamos tus momentos especiales con sabores auténticos y tradición familiar</p>
+            <button class="cta-button" onclick="scrollToSection('productos')">Ver Productos</button>
+        </div>
+        <div class="hero-image">
+            <img src="./images/pastel_arte.jpg" alt="Pastel artesanal">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2 class="section-title">Quiénes Somos</h2>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Nuestra Historia</h3>
+                    <p>Desde 2018, La Dulce Tentación ha sido el corazón dulce de La Resolana, Jalisco. Comenzamos como un sueño familiar de compartir los sabores tradicionales de nuestra región con recetas que han pasado de generación en generación.</p>
+                    
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h4><i class="fas fa-heart"></i> Misión</h4>
+                            <p>Crear momentos dulces e inolvidables a través de productos de repostería artesanal de la más alta calidad, preservando las tradiciones culinarias de Jalisco.</p>
+                        </div>
+                        
+                        <div class="vision">
+                            <h4><i class="fas fa-star"></i> Visión</h4>
+                            <p>Ser la repostería artesanal líder en La Resolana, reconocida por la excelencia de nuestros productos y el cariño con el que los elaboramos.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-section">
+                    <h3>Nuestro Equipo</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <img src="./images/maria.jpg" alt="María González">
+                            <h4>María González</h4>
+                            <p>Fundadora y Repostera Principal</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="./images/ana-gonzalez.jpg" alt="Ana González">
+                            <h4>Ana González</h4>
+                            <p>Especialista en Decoración</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="products">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="./images/birthday-cake_0.jpg" alt="Pasteles de Cumpleaños">
+                    <div class="product-info">
+                        <h3>Pasteles de Cumpleaños</h3>
+                        <p>Pasteles personalizados para hacer de tu celebración un momento único.</p>
+                        <div class="price">Desde $350 MXN</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="./images/boda.jpg" alt="Pasteles de Boda">
+                    <div class="product-info">
+                        <h3>Pasteles de Boda</h3>
+                        <p>Diseños elegantes para el día más especial de tu vida.</p>
+                        <div class="price">Desde $800 MXN</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="./images/cupcakes.png" alt="Cupcakes">
+                    <div class="product-info">
+                        <h3>Cupcakes Artesanales</h3>
+                        <p>Pequeñas delicias perfectas para cualquier ocasión.</p>
+                        <div class="price">$25 MXN c/u</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="./images/galletas.jpg" alt="Galletas">
+                    <div class="product-info">
+                        <h3>Galletas Tradicionales</h3>
+                        <p>Recetas familiares con el auténtico sabor de Jalisco.</p>
+                        <div class="price">$15 MXN c/u</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="./images/CANASTA.png" alt="Pan Dulce">
+                    <div class="product-info">
+                        <h3>Pan Dulce</h3>
+                        <p>Variedades tradicionales horneadas diariamente.</p>
+                        <div class="price">$12 MXN c/u</div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="./images/tiramisu.jpg" alt="Postres Especiales">
+                    <div class="product-info">
+                        <h3>Postres Especiales</h3>
+                        <p>Tres leches, flan napolitano y más delicias regionales.</p>
+                        <div class="price">Desde $45 MXN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Galería</h2>
+            <p class="gallery-subtitle">Algunos de nuestros trabajos más recientes</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="./images/birthday-cake_0.jpg" alt="Pastel de cumpleaños">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="./images/boda.jpg" alt="Pastel de boda">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="./images/cupcakes.png" alt="Cupcakes variados">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="./images/galletas.jpg" alt="Galletas tradicionales">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="./images/panaderia.jpeg" alt="Nuestra panadería">
+                </div>
+                <div class="gallery-item" onclick="openModal(this)">
+                    <img src="./images/choco.jpg" alt="Pastel de chocolate">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Calle Principal #123<br>La Resolana, Jalisco, México</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+52 33 1234 5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@ladulcetentacion.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horarios</h4>
+                            <p>Lunes a Sábado: 8:00 AM - 8:00 PM<br>Domingo: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="servicio" name="servicio" required>
+                                <option value="">Selecciona un servicio</option>
+                                <option value="cumpleanos">Pastel de Cumpleaños</option>
+                                <option value="boda">Pastel de Boda</option>
+                                <option value="cupcakes">Cupcakes</option>
+                                <option value="galletas">Galletas</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu pedido..." rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>La Dulce Tentación</h3>
+                    <p>Endulzando La Resolana desde 2018 con productos artesanales de la más alta calidad.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 La Dulce Tentación. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Gallery -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
